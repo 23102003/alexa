@@ -1,0 +1,196 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#922ab5;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: rgb(231, 240, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(59, 52, 52);
+    color: #ccbfbf;
+  }
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ccbfbf;
+    color: rgb(217, 222, 227);
+  }  
+ /* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+  }
+
+
+.verticalnav 
+{
+    list-style-type: none;
+    margin: 100px 60px ;
+    padding: 10px;
+    width: 100px;
+    display: inline;
+}
+.verticalnav a 
+{
+    color: #652c5b!important;
+    padding: 30px 3px;
+    text-decoration: none;
+    display: inline;
+
+}
+.verticalnav a:hover{
+    background-color: #555;
+    color: rgb(59, 32, 180);
+    display: inline;
+}
+
+.text{
+    margin: 50px 50px;
+    padding : 50px ;
+}
+.flex{
+  display:-webkit-flex;
+}
+.ul{
+  display: inline;
+}
+
+
+/* CSS */
+.contactme1 {
+  margin:0px 500px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #f3f5f6 0, #ae3dc2 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+ 
+}
+
+.contactme1:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.contactme1:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.contactme1:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.main1{
+  margin:0px 100px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #dbe5e8 0, #ca28cd 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+
+}
+.main1:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3b0729 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.font2{
+  font-size: 50px;
+}
+#page1{
+  height:100px ;
+}
+.digits{
+  padding: 10px 10px 2px 10px;
+  display :inline;
+}
+.L{
+  padding: 2px;
+  display:inline;
+}
+#page2{
+  margin: 10px;
+  display:block;
+  height: 100%;
+}
+.progress{
+  margin: 1% 60% 0% 5%;
+}
+.text1{
+  margin: 1% 0% 0% 5%;
+}
+.d-flex{
+  display:-webkit-flex;
+}
+.page5{
+  margin: 5% 5% 5% 50%;
+  font-size: 20px;
+  text-align: left;
+}
+#frontend{
+  align-items: right;
+}
+
+.dark-mode {
+  background-color: rgb(43, 37, 43);
+  color: rgb(224, 234, 236);
+}
+.portfolio1{
+  height: 400px;
+  width:900px;
+  margin:1px 20px 1px 25%;
+}
